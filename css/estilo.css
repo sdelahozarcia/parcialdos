@@ -44,7 +44,7 @@ body {
 
 
 aside#boton-wp { 
-    width: 45px; 
+    width: 53px; 
     height: 45px; 
     margin: 0; 
     float: none; 
@@ -105,7 +105,7 @@ aside#menu-moviles a#abrir-menu {
     float: none; 
     position: absolute; 
     top: 25px; 
-    left: -50px; 
+    left: -40px; 
     display: block; 
     text-decoration: none; 
     color: rgb(90, 64, 102); 
@@ -173,7 +173,7 @@ aside#menu-moviles nav a:hover {
 
 header { 
     width: 100%; 
-    height: 80px; 
+    height: 100px; 
     margin: 0; 
     float: none; 
     position: fixed; 
@@ -191,7 +191,7 @@ header article {
 header article figure { 
     margin: 0 auto; 
     width: 300px; 
-    padding-top:14px;}
+    padding-top:16px;}
 
 header article figure a img { 
     width: 300px; 
@@ -275,7 +275,7 @@ main section#zona-slider article.slick-slider figure a {
     color: #ffffff; 
     background: #7e4f99; 
     border-radius: 5px;
-    padding: 10px 20px; 
+    padding: 20px 20px; 
 }
 
 main section#zona-slider article.slick-slider figure a:hover { 
@@ -322,7 +322,7 @@ main section#categorias {
     margin-bottom: 20px;}
 
 main section#categorias article { 
-    width: 90%; 
+    width: 96%; 
     margin: 0 auto; 
     position: relative; 
     overflow: hidden; 
@@ -375,7 +375,7 @@ main section#categorias article a div.capa-oscura1 {
     top: 0; 
     left: 0; 
     z-index: 1; 
-    background: rgb(0 0 0 / 35%); 
+    background: rgb(100, 19, 121 / 35%);
     transition: all 0.3s ease-in;}
 
 main section#categorias article a div.capa-oscura2 { 
@@ -388,7 +388,7 @@ main section#categorias article a div.capa-oscura2 {
     top: 0; 
     left: 0; 
     z-index: 1; 
-    background: rgb(0 0 0 / 35%); 
+    background: rgb(100, 19, 121 / 35%)) ;
     transition: all 0.3s ease-in;}
 
 main section#categorias article a div.capa-oscura3 { 
@@ -401,7 +401,7 @@ main section#categorias article a div.capa-oscura3 {
     top: 0; 
     left: 0; 
     z-index: 1; 
-    background: rgb(0 0 0 / 35%); 
+    background: rgb(175, 106, 106 / 35%) ;
     transition: all 0.3s ease-in;}
 
 main section#categorias article a:hover div.capa-oscura1,main section#categorias article a:hover div.capa-oscura2,main section#categorias article a:hover div.capa-oscura3 { 
@@ -412,11 +412,11 @@ main section#categorias article a:hover div.capa-oscura1,main section#categorias
 
 main section#productos { 
     width: 100%; 
-    margin: 130px 0 20px 0;}
+    margin: 130px 0 20px 0px;}
 
 main section#productos article { 
     width: 70%; 
-    margin: 0 auto 70px auto; 
+    margin: 0 auto 50px auto; 
 }
 
 main section#productos article h3 { 
@@ -429,7 +429,7 @@ main section#productos article a {
     display: flex; 
     width: 48%; 
     margin-right: 4%; 
-    height: 250px; 
+    height: 330px; 
     float: left; 
 }
 
@@ -531,7 +531,7 @@ main section#categorias-prodt {
     margin-bottom: 200px;}
 
 main section#categorias-prodt article { 
-    width: 60%; 
+    width: 70%; 
     margin: 0 auto; 
     position: relative; 
     overflow: hidden; 
@@ -541,9 +541,9 @@ main section#categorias-prodt article a {
     text-decoration: none; 
     display: flex; 
     align-items: center; 
-    width: 49%; 
+    width: 48%; 
     height: 300px; 
-    margin-right: 2%; 
+    margin-right: 4%; 
     float: left; 
 }
 
@@ -575,7 +575,7 @@ main section#categorias-prodt article a h3 {
     z-index: 2;}
 
 main section#categorias-prodt article a div.capa-oscura1 { 
-    width: 49%; 
+    width: 48%; 
     height: 100%; 
     display: block; 
     margin: 0 auto; 
@@ -588,10 +588,10 @@ main section#categorias-prodt article a div.capa-oscura1 {
     transition: all 0.3s ease-in;}
 
 main section#categorias-prodt article a div.capa-oscura2 { 
-    width: 49%; 
+    width: 48%; 
     height: 100%; 
     display: block; 
-    margin: 0 auto 0 51%; 
+    margin: 0 auto 0 52%; 
     float: none; 
     position: absolute; 
     top: 0; 
@@ -690,7 +690,7 @@ main section#ficha-producto article div#info-producto a {
     color: #ffffff; 
     background: #7e6969;
     border-radius: 5px; 
-    padding: 10px 20px; 
+    padding: 20px 20px; 
 }
 
 main section#ficha-producto article div#info-producto a:hover { 
@@ -784,6 +784,26 @@ footer article div#inferior-footer p {
     main section#categorias article a div.capa-oscura3{
         width: 100%;
         margin: 0px;
+    }
+
+    main section#categorias-prodt article{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section#categorias-prodt article a{
+        width: 100%;
+    }
+
+    main section#categorias-prodt article a.caja1,
+    main section#categorias-prodt article a.caja2{
+        margin-bottom: 20px;
+        position: relative;
+    }
+    main section#categorias-prodt article a div.capa-oscura1,
+    main section#categorias-prodt article a div.capa-oscura2{
+        margin: 0px;
+        width: 100%;
     }
 }
 
